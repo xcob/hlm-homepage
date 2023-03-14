@@ -1,0 +1,151 @@
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+footer {
+    background-color: #0F1A14;
+    padding: 5em 0em;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#mainMenu, #mainMenu .top-bar-left, #mainMenu .top-bar-left, #mainMenu ul{
+    background-color: #F3F7F5;
+}
+
+#mainMenu a, #mobileMenu div{
+    color: #009E60;
+}
+
+#mobileMenu{
+    background-color: #F3F7F5;
+}
+
+#mobileMenu .menu-icon::after{
+    background-color: #009E60;
+}
+
+#heroBackground {
+    background: no-repeat center url("/imgSrc/HeroBackground.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 700px;
+    color: #fff;
+}
+
+#heroBackground h1{
+    font-family: Montserrat;
+    font-size: 55px;
+}
+
+#heroBackground p{
+    font-family: Montserrat;
+    font-size: 22px;
+}
+
+.topHeader{
+    padding: .6em;
+    background-color: #009E60;
+}
+
+.topHeader .cell{
+    color: #fff;
+    font-size: 18px;
+}
+
+/* fix second button color  */
+.heroButtonContainer button{
+    background-color: #009E60;
+    font-size: 18px;
+} 
+
+.mainCTASection{
+    background-color: #F3F7F5;
+    padding: 5em 0em;
+    text-align: center;
+}
+
+.mainCTASection .cell{
+    background-color: #fff;
+    color: #0F1A14;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px;
+    padding: 2em;
+    position: relative;
+}
+
+.mainCTASection .cell h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0F1A14;
+}
+
+.mainCTASection button{
+    background-color: #009E60;
+    color: #fff;
+    padding: 1.25em;
+    border-radius: 31px;
+    position: absolute;
+    left: 40%;
+}
+
+.mainCTASection h2{
+    color: #009E60;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.infoLinkList{
+    padding: 5em 0em;
+    background-color: #DAE7E0;
+}
+
+.infoLinkList .cell{
+    padding: 1em;
+}
+
+.mainServicesGridRow {
+    border-bottom: 1px solid #f4f4f4;
+    padding: 1em;
+}
+
+.infoLinkList a{
+    color: #009E60;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.infoLinkList h2{
+    color: #009E60;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.infoLinkList .cell h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0F1A14;
+}
+
+.mainServicesGrid{
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.lastListCell{
+    background-color:#009E60;
+}
+
+@media screen and (max-width: 767px) {
+    .infoLinkListItem{
+        border-bottom: 1px solid #f4f4f4;
+    }
+
+    .mainServicesGridRow {
+        border-bottom: none;
+    }
+}
