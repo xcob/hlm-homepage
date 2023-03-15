@@ -4,7 +4,6 @@
 
 footer {
     background-color: #0F1A14;
-    padding: 5em 0em;
 }
 
 button {
@@ -44,6 +43,29 @@ button {
 #heroBackground p{
     font-family: Montserrat;
     font-size: 22px;
+}
+
+
+#contactForm input, #contactForm input[type="phone"], #contactForm textarea {
+    background-color: #FFF;
+    border-radius: 31px;
+    border: none;
+    padding: 1em;
+    box-shadow: rgba(99, 99, 99, 0.2) 2px 2px 8px 0px;
+}
+
+#contactForm textarea {
+    margin: 1em;
+}
+
+#contactForm input[value="Submit"]{
+    background-color:#B92C27;
+    padding: 1em 2.5em;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .topHeader{
@@ -90,13 +112,15 @@ button {
     padding: 1.25em;
     border-radius: 31px;
     position: absolute;
-    left: 40%;
+    left: 38%;
 }
 
-.mainCTASection h2{
+.subHeadingGreen{
     color: #009E60;
     font-size: 40px;
     font-weight: bold;
+    font-family: Montserrat;
+    margin-bottom: 40px;
 }
 
 .infoLinkList{
@@ -138,7 +162,175 @@ button {
 
 .lastListCell{
     background-color:#009E60;
+    border: none;
 }
+
+.testimonials {
+    padding: 5em 0em;
+    background-color: #F3F7F5;
+}
+
+.testimonials .button{
+    background-color: #B92C27;
+    color: #fff;
+    padding: 1.25em;
+    border-radius: 31px;
+}
+
+
+.testimonialsAuthor {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0F1A14;
+    margin-right: 10px;
+}
+
+.testimonials h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.contactCTA{
+    text-align: center;
+    border-right: 1px solid #cecccc;
+}
+
+.contactCTA p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: .5em;
+}
+
+.benefitsGrid{
+    padding: 2em;
+}
+
+.benefitsGrid > div{
+    border-bottom: 1px solid #cecccc;
+}
+
+.benefitsGrid .cell{
+    padding: .5em 1.1em;
+}
+
+.testimonialSlider {
+    padding: 2em;
+}
+
+.swiper-slide p{
+    font-size: 18px;
+    color: #0F1A14;
+
+}
+
+.swiper-pagination {
+    margin-top: 20px;
+    position: inherit;
+    text-align: left;
+}
+
+.swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    background-color:#fff;
+    border: 1px solid #009E60;
+    opacity:.5;
+}
+
+.swiper-pagination-bullet-active {
+    width: 20px;
+    height: 20px;
+    background-color:#009E60;  
+    border: 1px solid #009E60;
+    opacity:1; 
+}
+
+.contactSection{
+    padding: 5em 0em;
+    background-image: linear-gradient(#009e5fd8, #0f1a14d0), url("/imgSrc/lead-background.jpg");
+}
+
+
+.contactFormBottom{
+    background-color: #F3F7F5;
+    padding: 2em;
+    border-radius: 31px;
+}
+
+.contactFormBottom p{
+    text-align: center;
+    font-size: 25px;
+    color: #0F1A14;
+}
+
+.contactFormCTA{
+    padding-left: 4em;
+    color: #F3F7F5;
+}
+
+.contactFormCTA h2 {
+    color: #F3F7F5;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-bottom: 20px;
+}
+
+.contactFormCTA .button {
+    background-color: #F3F7F5;
+    color:#B92C27;
+    padding: 1em 2.5em;
+    border-radius: 31px;
+}
+
+.footerLinks{
+    padding: 5em 0em;;
+}
+
+.footerLinks .cell{
+    padding: 1em;
+}
+
+.footerLinks .cell:first-child{
+    text-align: center;
+}
+
+
+.footerLinks a{
+    color: #F3F7F5;
+    font-size: 14px;
+}
+
+.footerText{
+    color: #F3F7F5;
+    font-size: 14px;
+}
+
+.footerLinks a:hover{
+    text-decoration: underline;
+}
+
+.footerLinks .button{
+    color: #F3F7F5;
+    background-color:#B92C27;
+    padding: 1em 2.5em;
+    border-radius: 31px;
+}
+
+.footerHeading{
+    text-transform: uppercase;
+    color:#009E60;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottomBar{
+    background-color: #000;
+    padding-top: 1em;
+}
+
+
 
 @media screen and (max-width: 767px) {
     .infoLinkListItem{
@@ -148,4 +340,19 @@ button {
     .mainServicesGridRow {
         border-bottom: none;
     }
+
+    .contactFormCTA{
+        padding: 1em;
+        text-align: center;
+    }
+
+    .subHeadingGreen{
+        text-align: center;
+    }
+
+    .mainCTASection button{
+        position: absolute;
+        left: 38%;
+    }
+    
 }
