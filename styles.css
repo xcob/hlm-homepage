@@ -343,7 +343,7 @@ button:hover {
 
 .contactSection{
     padding: 5em 0em;
-    background-image: linear-gradient(#009e5fd8, #0f1a14d0), url("imgSrc/lead-background.jpg");
+    background-image: linear-gradient(#007a49e5, #0f1a14d2), url("imgSrc/lead-background.jpg");
     background-size: cover;
 }
 
