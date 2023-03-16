@@ -138,6 +138,10 @@ button:hover {
     text-align: center;
 }
 
+.mainCTASection img{
+    width: 80px;
+}
+
 .mainCTASection .cell{
     background-color: #fff;
     color: #0F1A14;
@@ -156,8 +160,19 @@ button:hover {
 
 .mainCTASection button{
     background-color: #009E60;
+    border: 1px solid #009E60;
     color: #fff;
-    padding: 1.25em;
+    padding: 1em 1.50em;
+    border-radius: 31px;
+    position: absolute;
+    left: 35%;
+}
+
+.mainCTASection button:hover{
+    background-color: #fff;
+    border: 1px solid #009E60;
+    color: #009E60;
+    padding: 1em 1.50em;
     border-radius: 31px;
     position: absolute;
     left: 35%;
@@ -242,8 +257,17 @@ button:hover {
 
 .testimonials .button{
     background-color: #B92C27;
+    border: 1px solid #B92C27;
     color: #fff;
-    padding: 1.25em;
+    padding: 1em 1.50em;
+    border-radius: 31px;
+}
+
+.testimonials .button:hover{
+    background-color: #fff;
+    border: 1px solid #B92C27;
+    color: #B92C27;
+    padding: 1em 1.50em;
     border-radius: 31px;
 }
 
