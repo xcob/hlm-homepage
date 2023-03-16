@@ -87,7 +87,16 @@ button:hover {
 
 #contactForm input[value="Submit"]{
     background-color:#B92C27;
+    border: 1px solid #B92C27;
     padding: 1em 2.5em;
+}
+
+#contactForm input[value="Submit"]:hover{
+    background-color: #F3F7F5;
+    border: 1px solid #B92C27;
+    color:#B92C27;
+    padding: 1em 2.5em;
+    border-radius: 31px;
 }
 
 .button {
@@ -133,8 +142,26 @@ button:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 } 
 
+
+.heroButtonContainer a:hover{
+    background-color: #fff;
+    border: 1px solid #009E60;
+    color: #009E60;
+    border-radius: 31px;
+}
+
+
+
 .heroButtonContainer a:last-child{
     background-color:#B92C27;
+    border: 1px solid #B92C27;
+}
+
+.heroButtonContainer a:last-child:hover{
+    background-color: #fff;
+    border: 1px solid #B92C27;
+    color: #B92C27;
+    border-radius: 31px;
 }
 
 .mainCTASection{
@@ -180,7 +207,7 @@ button:hover {
     padding: 1em 1.50em;
     border-radius: 31px;
     position: absolute;
-    left: 32%;
+    left: 35%;
 }
 
 .subHeadingGreen{
@@ -255,6 +282,13 @@ button:hover {
     border-radius: 31px;
 }
 
+.lastListCell .lastListCellButton:hover{
+    background-color: #B92C27;
+    border: 1px solid #B92C27;
+    color: #fff;
+    border-radius: 31px;
+}
+
 .testimonials {
     padding: 5em 0em;
     background-color: #F3F7F5;
@@ -272,7 +306,6 @@ button:hover {
     background-color: #fff;
     border: 1px solid #B92C27;
     color: #B92C27;
-    padding: 1em 1.50em;
     border-radius: 31px;
 }
 
@@ -380,8 +413,16 @@ button:hover {
 
 .contactFormCTA .button {
     background-color: #F3F7F5;
+    border: 1px solid #B92C27;
     color:#B92C27;
     padding: 1em 2.5em;
+    border-radius: 31px;
+}
+
+.contactFormCTA .button:hover{
+    background-color: #B92C27;
+    border: 1px solid #B92C27;
+    color: #fff;
     border-radius: 31px;
 }
 
@@ -416,9 +457,17 @@ button:hover {
 .footerLinks .footerButton{
     color: #F3F7F5;
     background-color:#B92C27;
-    padding: 1em 1.5em;
+    padding: .8em 1.25em;
     border-radius: 31px;
     font-size: 18px;
+    text-decoration: none;
+}
+
+.footerLinks .footerButton:hover{
+    background-color: #fff;
+    border: 1px solid #B92C27;
+    color: #B92C27;
+    border-radius: 31px;
     text-decoration: none;
 }
 
