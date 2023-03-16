@@ -461,6 +461,10 @@ button:hover {
         text-align: center;
     }
 
+    .lastListCell .cell:last-child{
+        padding: 1em;
+    }
+
     .mainServicesGridRow {
         border-bottom: none;
     }
