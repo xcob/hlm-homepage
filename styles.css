@@ -109,6 +109,11 @@ button:hover {
     background-color: #009E60;
 }
 
+.topHeader a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .topHeader img{
     margin-right: 20px;
 }
@@ -175,7 +180,7 @@ button:hover {
     padding: 1em 1.50em;
     border-radius: 31px;
     position: absolute;
-    left: 35%;
+    left: 32%;
 }
 
 .subHeadingGreen{
